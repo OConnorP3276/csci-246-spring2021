@@ -52,7 +52,7 @@ Office hours: Please email or call in advance if you plan to join.  This will
 eliminate waiting (both on your end and on our end).
 
 * Prof. Fasy (x4804): MW, after class, and by appointment.
-* TA: TODO 
+* TA: Monday 11am-12pm by appointment. Please schedule an appointment using [MSU Appointment Scheduler](https://www.montana.edu/scheduler/login/student/?fac=11433).
 
 ## What is in this repository?
 
@@ -273,10 +273,19 @@ hear or smell you.
 
 ### Week 2 (18 January 2021)
 - Monday is a holiday: MLK day
-- Topics: Introduction to Proofs, LaTex 
+- Topics: Sets, Truth Tables 
 - Reading: Chapter 2
 - Miro Links: [W](https://miro.com/app/board/o9J_lYfSSec=/),
-  [Wb](https://miro.com/app/board/o9J_lYfSTkQ=/), F, Fb
+  [Wb](https://miro.com/app/board/o9J_lYfSTkQ=/), [F](https://miro.com/app/board/o9J_lXxJB5M=/), [Fb](https://miro.com/app/board/o9J_lXxVOK4=/)
+
+### Week 3 (24 January 2021)
+- Topics: Compound Logic Statements, Predicates, and Quantified Statements 
+- Reading: Chapter 3 
+- Miro Links: [M](https://miro.com/app/board/o9J_lXAMeqs=/),
+  [Mb](https://miro.com/app/board/o9J_lXAMe_E=/), [W](https://miro.com/app/board/o9J_lWjUKUY=/),
+  [Wb](https://miro.com/app/board/o9J_lWjUKV8=/), [F](https://miro.com/app/board/o9J_lW0dcX4=/),
+  [Fb](https://miro.com/app/board/o9J_lW0dcQs=/) 
+
 
 
 

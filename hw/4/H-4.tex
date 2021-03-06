@@ -28,7 +28,7 @@ General homework expectations:
 
 % ============================================
 % ============================================
-\collab{\todo{}} \nextprob{Good Proofs}
+\collab{n/a} \nextprob{Good Proofs}
 % ============================================
 % ============================================
 
@@ -38,14 +38,25 @@ examples.
 
 
 \paragraph{Answer}
+\begin{enumerate}
+  \item The first quality that is common in good proofs is to have a clear starting point
+    of end point or both if possible.
 
-\todo{your answer here}
+  \item Secondly including more than just the logic that is required for the proof.
+
+  \item Avoid using first person language
+
+  \item Write in paragraph form
+
+  \item Know your audience and provide definitions to this audience when necessary
+
+\end{enumerate}
 
 
 
 % ============================================
 % ============================================
-\collab{\todo{}} \nextprob{Max of a Subset}
+\collab{n/a} \nextprob{Max of a Subset}
 % ============================================
 % ============================================
 
@@ -56,7 +67,7 @@ holds: $\max(A) \leq \max(B)$.
 \paragraph{Answer}
 
 \todo{your answer here}
-
+If B is finite, then $\max$ B $\in$ B by definition of maximum of a finite set.
 % ============================================
 % ============================================
 \collab{\todo{}} \nextprob{Fibonacci}
@@ -79,7 +90,7 @@ Prove $\sum_{i=1}^n F_i = F_{n+2}-1$.
 
 % ============================================
 % ============================================
-\collab{\todo{}} \nextprob{US Coins}
+\collab{n/a} \nextprob{US Coins}
 % ============================================
 % ============================================
 
@@ -89,7 +100,32 @@ pennies.
 
 \paragraph{Answer}
 
-\todo{your answer here}
+Given the four smallest denominations of US coins: $D=\{1,5,10,25\}$ We can create
+a formula in relation to n as $n = a+5b+10c+25d$ where each coin is represented respectively
+in the formula followed by a letter for how many.
+
+Base case: $P(1) = 1(1)+5(0)+10(0)+25(0) = 1$
+
+Assume that P(n) is true in that $n = a+5b+10c+25d$.
+
+With that assumption we can move to n+1 which can be represented as
+$P(n+1) = a_1+5b_1+10c_1+25d_1$ where $a_1=a+1$.
+
+Moving towards $n=k$, we can assume that $k = a^1+5b^1+10c^1+25d^1$ is true.
+
+Proving that $n = k+1$ and $n =k+9$
+For $n = k+1$ we can use the previous statement of $k = a^1+5b^1+10c^1+25d^1 = k+1$
+
+For $n = k+9$ we will need $a^1=4$ and $b^1=1$
+
+To prove our statement of we need at most four pennies to make $n$ cents we can
+use the $n = k+9$ and remove the $b^1=1$ so that $b^1=0$. Expressed fully as
+$n = 1(1)+5(0)+10(0)+25(0)$
+
+In conclusion, to make any cents $n$ we require at most four pennies along with
+an assortment of other denominations.
+By proof by mathematical induction P(n) is true.
+
 
 % ============================================
 % ============================================

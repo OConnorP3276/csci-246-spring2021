@@ -69,7 +69,7 @@ examples.
 % ============================================
 
 Let $(B,\leq)$ be a totally ordered finite set. Prove the following
-statement: For all subsets $A \subseteq B$, the following inequality
+statement: For all nonempty subsets $A \subseteq B$, the following inequality
 holds: $\max(A) \leq \max(B)$.
 
 \paragraph{Answer}
@@ -93,7 +93,7 @@ The Fibonacci numbers are defined as follows:
 $$
     F_i = \begin{cases}
             1 & i \in \{1,2\} \\
-            F_{n-1}+F_{n-2} & \text{otherwise}
+            F_{i-1}+F_{i-2} & \text{otherwise}
           \end{cases}
 $$
 
@@ -168,9 +168,10 @@ By proof by mathematical induction P(n) is true.
 
 Read Chapters $4$ and $5$ of \emph{Four Colors Suffice}.
 
-Use a ``minimal criminal'' argument to prove that if an edge is removed from a
+Use a proof by contradiction to prove that if an edge is removed from a
 tree, then the resulting graph has two connected components.
 
+<<<<<<< HEAD
 \paragraph{Answer}
 By definition a tree must be acyclic and the number edges can be found by v-1
 where v is the number of vertices.
@@ -189,6 +190,12 @@ been a tree to begin with.
 
 Therefore we can conclude that if there is a tree G that has an edge taken away
 the resulting graph will be two connected components.
+=======
+EC:
+Use a ``minimal criminal'' argument to prove this.
+
+        \paragraph{Answer}
+>>>>>>> c6a691f650bf32c9ff859aeed2cbdf196f6d24ae
 
 
 % ============================================

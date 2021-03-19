@@ -4,7 +4,7 @@
 %% UPDATE these variables:
 \renewcommand{\hwnum}{5}
 \title{Discrete Structures, Homework \hwnum}
-\author{\todo{Your Name Here} (\todo{your discord handle here})}
+\author{\todo{Patrick O'Connor} (Patrick OConnor (322))}
 \collab{n/a}
 \date{due: 19 March 2021}
 
@@ -28,7 +28,7 @@ General homework expectations:
 
 % ============================================
 % ============================================
-\collab{\todo{}} \nextprob{Colors}
+\collab{n/a} \nextprob{Colors}
 % ============================================
 % ============================================
 
@@ -42,7 +42,23 @@ might be colorblind or colorweak (or have a bad computer screen).
 
 \paragraph{Answer}
 
-\todo{your answer here}
+In order to be create more accessible products such as write-ups, websites, or GUI
+we must put ourselves in their shoes and also reach for feedback from the end-user.
+A simple tip to consider when you are first designing a product is ensuring
+contrast is suitable or a color-blind web page filter option is available for
+the users. Along with this having text to speech buttons and keyboard access is
+important for accessibility for those that are visually impaired. Another helpful
+implementation is to use multiple means to display your message such as using
+shapes like a check-mark or a "X" to signify completion of a task or input. A
+note that I remember after working with a blind CS major my freshman year is to
+use heading to organize your page. The program that he used to follow along with
+notes or surf the web utilized these to separate content. Lastly, providing alt-text
+or descriptions for non-text content is a quick task that can assist in increasing
+accessibility for those who are colorblind or colorweak. Overall at this point
+many of these are industry standard at this point but I have never thought of using
+these techniques for papers and I think that LaTex is a good tool for increasing
+accessibility.
+
 
 
 
@@ -54,7 +70,7 @@ might be colorblind or colorweak (or have a bad computer screen).
 
 How many edges does the complete bipartite graph $K_{n,n}$ have?  Make your
 conjecture, then prove that it is correct.
-
+% PAGE
 Bonus: Instead, prove the more general case:
 what is the number of edges in $K_{n,m}$?
 
@@ -67,7 +83,7 @@ what is the number of edges in $K_{n,m}$?
 
 % ============================================
 % ============================================
-\collab{\todo{}} \nextprob{Four Colors Suffice}
+\collab{Peyton Meeks} \nextprob{Four Colors Suffice}
 % ============================================
 % ============================================
 
@@ -81,8 +97,10 @@ Read Chapters $7$ and $8$ of \emph{Four Colors Suffice}.
 
         \paragraph{Answer}
 
-        \todo{your answer here}
+        Euler's Formula for a finite decomposition of a Sphere or 2-plane into
+        vertices, edges, and faces is $V-E+F=0$
 
+        The other formula that is known as Euler's formula is $V-E+F=2$.
 
 
     \item  Consider the following construction: Start with a solid cube.  Then, slice
@@ -92,24 +110,38 @@ Read Chapters $7$ and $8$ of \emph{Four Colors Suffice}.
 
         \paragraph{Answer}
 
-        \todo{your answer here}
+        The result polyhedron is a truncated hexahedron. The cube originally had 8 vertices,
+        12 edges, and 6 faces. The truncated hexahedron has 24 vertices, 36 edges, and 14 faces.
+        More details can be seen in the photo below.
+        \begin{figure}
+          \includegraphics[width=\linewidth]{trunc-hexahedron.png}
+          \caption{Solid cube with a small region sliced off at each vertex}
+          \label{fig:trunc-hexahedron}
+        \end{figure}
+Figure \ref{fig:trunc-hexahedron} Solid cube with a small region sliced off at each vertex
 
 
 
 
     \item Draw a projection of the octahedron onto the plane such that edges only
-        intersect at vertics.  Can every polyhedron be drawn in such a way?
+        intersect at vertices.  Can every polyhedron be drawn in such a way?
 
         \paragraph{Answer}
 
-        \todo{your answer here}
+        \begin{figure}
+          \includegraphics[width=\linewidth]{plane-octahedron.png}
+          \caption{A projection of the octahedron onto the plane such that edges only
+              intersect at vertices}
+          \label{fig:plane-octahedron}
+        \end{figure}
+Figure \ref{fig:plane-octahedron} Solid cube with a small region sliced off at each vertex
 
 
 \end{enumerate}
 
 % ============================================
 % ============================================
-\collab{\todo{}}
+\collab{n/a}
 \nextprob{Fran Allen}
 % ============================================
 % ============================================
@@ -124,13 +156,30 @@ use any sources to write this biography'' as the last sentence of the
 biography.
 
 \paragraph{Answer}
+Frances E. Allen is an American computer scientist that grew up on a farm in Peru,
+New York. Growing up in a small town she had been home schooled by a neighbor.
+Later attending The New York State College for Teachers for a bachelors of science
+degree in mathematics. After graduating she went back to her home town and began
+educating the youth in mathematics. After a couple years she went back to school
+at the University of Michigan for a master of science in mathematics.
 
-\todo{your answer here}
-
+After graduating, she left the education sector and joined the IBM team. Although
+leaving the education sector technically she was hired to teach the existing
+staff scientists about a new programming language named FORTRAN. At the time FORTRAN
+had been released just two months before. After a couple years of teaching and
+diving into the FORTRAN compiler source code Allen progressed to working on
+compilers for IBM supercomputers. This compiler work is were she made the
+largest amount of progress in the computing world and subsequently was awarded
+a A.M. Turing Award. Allen's focus throughout her career was on compiler optimization.
+Her work in compilers was to decrease the size of the bridge between how computers
+communicate and humans communicate. Along with this expansive work within compilers
+Frances Allen spoke at a conferences across the world inspiring many young women
+to go into the field of computer science.
+\emph{Britannica}~\cite{britannica}
+\emph{Wikipedia}~\cite{wikipedia}
 % %% ... the bibliography
-% \newpage
-% \bibliographystyle{acm}
-% \bibliography{biblio}
+ \newpage
+ \bibliographystyle{acm}
+ \bibliography{biblio}
 
 \end{document}
-

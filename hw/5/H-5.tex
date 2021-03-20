@@ -4,7 +4,7 @@
 %% UPDATE these variables:
 \renewcommand{\hwnum}{5}
 \title{Discrete Structures, Homework \hwnum}
-\author{\todo{Patrick O'Connor} (Patrick OConnor (322))}
+\author{Patrick O'Connor (Patrick OConnor (322))}
 \collab{n/a}
 \date{due: 19 March 2021}
 
@@ -42,13 +42,12 @@ might be colorblind or colorweak (or have a bad computer screen).
 
 \paragraph{Answer}
 
-In order to be create more accessible products such as write-ups, websites, or GUI
-we must put ourselves in their shoes and also reach for feedback from the end-user.
-A simple tip to consider when you are first designing a product is ensuring
+As computer scientists in order to create more accessible products such as write-ups, websites, or GUI
+we must put ourselves in the shoes of colorblind or colorweak users and reach for feedback from the end-user.
+Along with this we should consider when we are first designing a product is ensuring
 contrast is suitable or a color-blind web page filter option is available for
-the users. Along with this having text to speech buttons and keyboard access is
-important for accessibility for those that are visually impaired. Another helpful
-implementation is to use multiple means to display your message such as using
+the users. As well having considering implementing text to speech buttons and keyboard access
+. Another helpful implementation is to use multiple means to display your message such as using
 shapes like a check-mark or a "X" to signify completion of a task or input. A
 note that I remember after working with a blind CS major my freshman year is to
 use heading to organize your page. The program that he used to follow along with
@@ -64,7 +63,7 @@ accessibility.
 
 % ============================================
 % ============================================
-\collab{\todo{}} \nextprob{The Complete Bipartite Graph $K_{n,n}$}
+\collab{n/a} \nextprob{The Complete Bipartite Graph $K_{n,n}$}
 % ============================================
 % ============================================
 
@@ -76,9 +75,32 @@ what is the number of edges in $K_{n,m}$?
 
 \paragraph{Answer}
 
-\todo{your answer here}
+A complete bipartite graph $K_{n,n}$ has $n^2$ edges.
+
+For the bonus, we consider and prove what the number of edges in $K_{n,m}$ is.
+
+$K_{n,m}$ has $n*m$ edges.
+
+With $K_{n,m}$ being a complete bipartite graph by the definition of bipartite graph
+we know there is a union between $V_1$ and $V_2$ when $n=V_1$ and $m=V_2$.
+
+Along with this we know that $K_{n,m}$ has exactly one edge between every
+$V_1$ and $V_2$.
+
+With this, there is only one edge for each $V_1$ and $V_2$.
+
+Thus by the product rule we can conclude there are $V_1 * V_2 = n*m$ ways to
+choose a vertex in $V_1$ and $V_2$
+
+So if $m=n$ as in the simpler problem we have $K_{n,n} = n^2$
 
 
+Definition: Bipartite Graph:  A bipartite graph is a graph in which a set of graph
+vertices can be divided into two independent sets, and no two graph vertices
+within the same set are adjacent. In other words, bipartite graphs can be
+considered as equal to two colorable graphs. Bipartite graphs are mostly used
+in modeling relationships, especially between two entire separate classes of object.
+\emph{Source of definition}~\cite{techopedia}
 
 
 % ============================================
@@ -119,8 +141,6 @@ Read Chapters $7$ and $8$ of \emph{Four Colors Suffice}.
           \label{fig:trunc-hexahedron}
         \end{figure}
 Figure \ref{fig:trunc-hexahedron} Solid cube with a small region sliced off at each vertex
-
-
 
 
     \item Draw a projection of the octahedron onto the plane such that edges only
@@ -175,8 +195,9 @@ Her work in compilers was to decrease the size of the bridge between how compute
 communicate and humans communicate. Along with this expansive work within compilers
 Frances Allen spoke at a conferences across the world inspiring many young women
 to go into the field of computer science.
-\emph{Britannica}~\cite{britannica}
 \emph{Wikipedia}~\cite{wikipedia}
+\emph{Britannica}~\cite{britannica}
+
 % %% ... the bibliography
  \newpage
  \bibliographystyle{acm}

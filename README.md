@@ -198,7 +198,7 @@ responsible for the honest completion and representation of their work, the
 appropriate citation of sources and the respect and recognition of others'
 academic endeavors.
 
-Plagiarism will not be tolerated in this course. According to the Meriam-Webster
+Plagiarism will not be tolerated in this course. According to the Merriam-Webster
 dictionary, plagiarism is `the act of using another person's words or ideas
 without giving credit to that person.'  Proper credit means describing all
 outside resources (conversations, websites, etc.), and explaining the extent to
@@ -335,7 +335,7 @@ hear or smell you.
     [Fb](https://miro.com/app/board/o9J_lReZ9to=/)
 
 ### Week 9 (8 March 2021)
-- Topics: More induction, and boolean algebras 
+- Topics: More induction and boolean algebra 
 - Reading: Chapters 5 & 6
 - Miro Links: [M](https://miro.com/app/board/o9J_lQw_Vek=/),
     [Mb](https://miro.com/app/board/o9J_lQw_Vbg=/),
@@ -366,7 +366,7 @@ hear or smell you.
 
 ### Week 12
 
-- Topics: Counting andProbability 
+- Topics: Counting and Probability 
 - Reading: Chapter 9
 - Miro Links: [M](https://miro.com/app/board/o9J_lMtHemg=/),
     [Mb](https://miro.com/app/board/o9J_lMtHen8=/),
@@ -394,6 +394,26 @@ hear or smell you.
     [Wb](https://miro.com/app/board/o9J_lKc9WqU=/),
     [F](https://miro.com/app/board/o9J_lJ952FM=/),
     [Fb](https://miro.com/app/board/o9J_lJ952GU=/)
+
+### Week 15
+
+- Topics: More Asymptotics
+- Reading: Chapter 11
+- Miro Links: [M](https://miro.com/app/board/o9J_lJMn4Ig=/),
+   [Mb](https://miro.com/app/board/o9J_lJMn4I0=/),
+   [W](https://miro.com/app/board/o9J_lJMn4UQ=/),
+   [Wb](https://miro.com/app/board/o9J_lJMn4L0=/),
+   [F](https://miro.com/app/board/o9J_lITj3Fo=/),
+   [Fb](https://miro.com/app/board/o9J_lITj3GM=/)
+
+### Week 16
+
+- Topics: Wrap-Up
+- Reading: Chapter 12
+- Miro Links: [M](https://miro.com/app/board/o9J_lHskd-4=/),
+    [Mb](https://miro.com/app/board/o9J_lHskd_c=/),
+    [W](https://miro.com/app/board/o9J_lHNecn0=/),
+    [Wb](https://miro.com/app/board/o9J_lHNecmg=/)
 
 --- 
 

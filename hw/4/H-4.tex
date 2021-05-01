@@ -1,5 +1,5 @@
 \documentclass{article}
-\usepackage{../fasy-hw}
+\usepackage{fasy-hw}
 
 %% UPDATE these variables:
 \renewcommand{\hwnum}{4}
@@ -39,19 +39,41 @@ examples.
 
 \paragraph{Answer}
 \begin{enumerate}
+
+
+  \item Secondly including more than just the logic that is required for the proof.\
+      As logic only proves that an argument is valid and not if it sound
+        \emph{Textbook1}~\cite{etextbook1}
+
+  \item Do not be afraid to prove something in multiple ways.
+    \emph{Textbook2}~\cite{etextbook2}
+
   \item The first quality that is common in good proofs is to have a clear starting point
-    of end point or both if possible.
-
-  \item Secondly including more than just the logic that is required for the proof.
-
-  \item Avoid using first person language
+    or end point or both if possible.
+    \emph{Verbal}~\cite{fasylecture}
 
   \item Write in paragraph form
+  \emph{Textbook3}~\cite{etextbook3}
 
-  \item Know your audience and provide definitions to this audience when necessary
-
+  \item Displaying equations and inequalities increase the readability of a proof
+    \emph{Textbook4}~\cite{etextbook4}
 \end{enumerate}
 
+{Five Qualities that are common among good proofs: }
+
+
+{Clarity,good proofs communicate their ideas with as much detail as necessary.}
+
+{Logical, the logic behind the proof is sound and mathematically or logically correct.}
+
+{Professional, correct notations, punctuation, and grammer is used.}
+
+{Breif, good proofs use consise explanations.}
+
+{Significant, the proof reveals important ideas related to the topic.}
+
+
+{Citation to explamples: "Discrete Mathematics: An Open Introduction by Oscar Levin section 3.2" 2021)
 
 
 % ============================================
@@ -61,16 +83,23 @@ examples.
 % ============================================
 
 Let $(B,\leq)$ be a totally ordered finite set. Prove the following
-statement: For all subsets $A \subseteq B$, the following inequality
+statement: For all nonempty subsets $A \subseteq B$, the following inequality
 holds: $\max(A) \leq \max(B)$.
 
 \paragraph{Answer}
 
-\todo{your answer here}
+Let $a$ be the $\max \in$ finite set $A$ and $b$ be the $\max \in$ finite set $B$
+If A is finite, then $\max$ A $\in$ A by definition of maximum of a finite set.
 If B is finite, then $\max$ B $\in$ B by definition of maximum of a finite set.
+
+By definition of subsets element $A \in B$. Therefore $a \in B$ but b is not always
+an $\in A$ because set A's range is less than set B's range by given prompt.
+
+Hence b $>$ a and $\max(A) \leq \max(B)$.
+
 % ============================================
 % ============================================
-\collab{\todo{}} \nextprob{Fibonacci}
+\collab{Dastan Riazati} \nextprob{Fibonacci}
 % ============================================
 % ============================================
 
@@ -78,7 +107,7 @@ The Fibonacci numbers are defined as follows:
 $$
     F_i = \begin{cases}
             1 & i \in \{1,2\} \\
-            F_{n-1}+F_{n-2} & \text{otherwise}
+            F_{i-1}+F_{i-2} & \text{otherwise}
           \end{cases}
 $$
 
@@ -86,7 +115,25 @@ Prove $\sum_{i=1}^n F_i = F_{n+2}-1$.
 
 \paragraph{Answer}
 
-\todo{your answer here}
+With a true base case of n = 1.
+
+Left hand: $\sum_{i=1}^1 F_1 = 1$
+Right hand: $F{3}-1 = F{2}+F{1}-1 = 1+1-1 = 1$
+Therefore this true for n=1
+
+Assuming $\sum_{i=1}^k Fi = F{k+2}-1$
+
+Now, prove $\sum_{i=1}^{k+1} Fi = F{k+3}-1$
+
+$\sum_{i=1}^{k+1} Fi = (\sum{i=1}^k Fi) + F{k+1}$ by definition of summation.
+
+$(\sum_{i=1}^k Fi) + F{k+1} = F{k+2}-1 + F{k+1}$ by induction hypothesis.
+
+$F{k+2}-1 + F{k+1} = F{k+3}-1$ by definition of Fibonacci numbers.
+
+Thus, $\sum{i=1}^{k+1} Fi = F{k+3}-1$
+
+Thus, $\sum_{i=1}^n Fi = F{n+2}-1$ by induction.
 
 % ============================================
 % ============================================
@@ -129,18 +176,49 @@ By proof by mathematical induction P(n) is true.
 
 % ============================================
 % ============================================
-\collab{\todo{}} \nextprob{Four Colors Suffice}
+\collab{Dastan Riazati} \nextprob{Four Colors Suffice}
 % ============================================
 % ============================================
 
 Read Chapters $4$ and $5$ of \emph{Four Colors Suffice}.
 
-Use a ``minimal criminal'' argument to prove that if an edge is removed from a
+Use a proof by contradiction to prove that if an edge is removed from a
 tree, then the resulting graph has two connected components.
 
-        \paragraph{Answer}
+\paragraph{Answer}
+By definition a tree must be acyclic and the number edges can be found by v-1
+where v is the number of vertices.
 
-        
+Our statement above is false at n edges and n+1 vertices, minimum such. But at
+n-1 edges, n vertices our statement is true in that if the edge is removed two components will
+be found in the resulting graph. This resulting graph after removing can be
+expressed as having a total of v-2 edges and still v vertices. By previously
+stated definition, in order for a tree to remain a tree after manipulation it must
+be acyclic and the number of edges must be v-1. Therefore our previous tree no
+longer fits the definition of a tree unless the original tree is split into two
+connected components. Along with this when splitting a tree at say previously
+connected vertices $v_1$ and $v_2$ since by definition there is no cycles, these
+two vertices are no longer connected in any way by an edge or it would have not
+been a tree to begin with.
+
+Therefore we can conclude that if there is a tree G that has an edge taken away
+the resulting graph will be two connected components.
+
+{A tree is an acyclic graph which means it has no cycles and it is connected. Following this definition a tree has to be a simple graph.}
+
+{We know a graph is a tree if there is absoluty 1 path between all pairs of the vertices}
+
+{Let n = a graph such that there is exactly 1 path between all pairs.}
+
+{Therefore n is connected, meaning no cycles}
+
+
+{Let a and b be verticies of n}
+
+{Between a and b there are 2 paths which is the contridiction}
+
+{The path between this pair contains a cycle which contradicts one of our proproties of a tree (A tree is an acyclic graph).
+
 
 % ============================================
 % ============================================
